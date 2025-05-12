@@ -10,11 +10,14 @@
 Использование
 Базовый синтаксис
   python main.py файл1.csv [файл2.csv ...] --report REPORT_TYPE [--output FILENAME]
+  
 Примеры команд
 Сформировать отчет по выплатам и вывести в консоль:
   python main.py employees.csv --report payout
+  
 Сформировать отчет и сохранить в файл:
   python main.py data1.csv data2.csv --report payout --output report (создаст файл report.csv)
+  
 
 Отдел           Имя                     Часы     Ставка         Выплата
 ----------------------------------------------------------------------
